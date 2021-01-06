@@ -70,5 +70,5 @@
     <string name="btnChangingOneMonthAgo">一か月進める</string>
     <string name="labelOfAmountOfPages">合計ページ数</string>
     <!-- 後で修正する必要あり -->
-    <string name="ReadMemoApiServer_Domain">http://10.0.2.2:3000</string>
+    <string name="ReadMemoApiServer_Domain">http://10.0.2.2:8080</string>
 </resources>
