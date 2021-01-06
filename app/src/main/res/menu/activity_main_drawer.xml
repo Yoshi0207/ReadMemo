@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <item android:title="@string/toggleMenuOfMainView_Category">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                        android:id="@+id/showAllBooks"
+                        android:icon="@drawable/ic_library_books_black_24dp"
+                        android:title="@string/toggleMenuOfMainView_AllBooks" />
+                <item
+                        android:id="@+id/showHaveReadBooks"
+                        android:icon="@drawable/ic_book_black_24dp"
+                        android:title="@string/toggleMenuOfMainView_HaveReadBooks" />
+                <item
+                        android:id="@+id/showReadingBoosk"
+                        android:icon="@drawable/ic_bookmark_black_24dp"
+                        android:title="@string/toggleMenuOfMainView_ReadingBooks" />
+                <item
+                        android:id="@+id/showWillReadBooks"
+                        android:icon="@drawable/ic_bookmark_border_black_24dp"
+                        android:title="@string/toggleMenuOfMainView_WillReadBooks" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/toggleMenuOfMainView_Note">
+        <menu>
+            <item
+                    android:id="@+id/changeViewToReadingRecord"
+                    android:icon="@drawable/ic_local_library_black_24dp"
+                    android:title="@string/toggleMenuOfMainView_ReadingRecord" />
+            <item
+                    android:id="@+id/changeViewToSearchingBooks"
+                    android:icon="@drawable/ic_search_black_24dp"
+                    android:title="@string/toggleMenuOfMainView_SearchingBooks" />
+        </menu>
+    </item>
+
+</menu>

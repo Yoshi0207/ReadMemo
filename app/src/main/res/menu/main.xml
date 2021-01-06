@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:title="@string/SortDatetimeDESC"
+            android:id="@+id/datetimeDESC" />
+    <item
+            android:title="@string/SortDatetimeASC"
+            android:id="@+id/datetimeASC" />
+</menu>
