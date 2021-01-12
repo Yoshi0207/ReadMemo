@@ -1,0 +1,22 @@
+@startuml 本の情報を取得
+
+actor ユーザ
+
+ユーザ -> 読書メモ: 「本を探す」
+activate 読書メモ
+
+読書メモ -> サーバアプリ: 本を検索する(ジャンル)
+activate サーバアプリ
+
+サーバアプリ -> 楽天ブックスAPI: GETリクエスト
+activate 楽天ブックスAPI
+楽天ブックスAPI --> サーバアプリ: 書籍情報(JSON)
+destroy 楽天ブックスAPI
+
+サーバアプリ --> 読書メモ: 書籍情報(JSON)
+destroy サーバアプリ
+
+読書メモ -> ユーザ: 書籍一覧を表示
+deactivate 読書メモ
+
+@enduml
