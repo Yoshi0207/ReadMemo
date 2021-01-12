@@ -46,7 +46,7 @@
             tools:ignore="LabelFor" />
 
     <TextView
-            android:text="@string/AuthorFieldLabelOfEditView"
+            android:text="@string/methodOfNamingAuthor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView3"
