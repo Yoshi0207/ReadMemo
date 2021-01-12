@@ -1,9 +1,9 @@
-# ReadMemoBackEndApplication
+# ReadMemoAndroidApplication
 本アプリケーションは蔵書を管理するためのAndroid用読書管理アプリです。
 
 ## 本アプリケーションについて
 ◇気になったことをなんでもメモしよう！<br>
-`ReadMemoBackEndApplication`は、登録した本それぞれにメモをつけることができます。気になったフレーズ・感想など、後から思い出すのに便利です。<br>
+`ReadMemoAndroidApplication`は、登録した本それぞれにメモをつけることができます。気になったフレーズ・感想など、後から思い出すのに便利です。<br>
 <br>
 ◇キーワードまたはISBNで本を楽々追加！<br>
 書籍登録画面では、検索することで本を追加できるので、面倒な書籍情報入力は不要です。また、検索した本は表紙も登録されます。<br>
