@@ -19,7 +19,7 @@
 
 ## 使い方
 ### 1. [ReadMemoBackEndApplication](https://github.com/Yoshi0207/ReadMemoBackEndApplication)を準備する
-本アプリケーションは、アプリケーション内で書籍情報を表示するために、[ReadMemoBackEndApplication](https://github.com/Yoshi0207/ReadMemoBackEndApplication)へリクエストを送信します。
+本アプリケーションは、アプリケーション内で書籍情報を表示するために、[ReadMemoBackEndApplication](https://github.com/Yoshi0207/ReadMemoBackEndApplication)と通信します。
 
 ### 2. ReadMemoBackEndApplicationのアドレスを指定する
 `1`で準備した`ReadMemoBackEndApplication`が動作するサーバへのアドレスを設定します。<br>
